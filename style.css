@@ -1,0 +1,213 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    }
+
+    
+.main-color  {
+      color: #25c185;
+     
+    }
+    
+.main-bg-color{
+      background-color: #25c185;
+    }
+
+
+
+
+#pricing{
+  color: #25c185;
+}
+
+
+.reserve-tab{
+
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  
+  color: black;
+}
+
+
+
+.return-tab{
+  color: black;
+  background-color: #F4D03F;
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  
+}
+
+
+
+.membership-tab{
+  color: black;
+  background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+
+.bill{
+  color: black;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+}
+
+.premium{
+  color:#7FFFD4;
+  border-color:#7FFFD4;
+ 
+}
+
+.basic{
+  color: #25c185;
+  border-color: #25c185;
+}
+
+.buttonBasic{
+  border-color: #04cf7b;
+}
+
+.buttonPremium{
+  border-color: #7FFFD4;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 150px auto;
+}
+
+.box-sizing{
+  box-sizing: border-box;
+}
+
+.mb-auto{
+  margin-bottom: auto;
+}
+
+
+
+.dashboard{
+  color: black;
+  font-weight: bold;
+}
+
+
+.booked-list{
+ color: #89de54;
+ background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+
+}
+.further-details{
+  color: rgb(80, 185, 226);
+  background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+
+.view{
+  color: #25afc1;
+  border-color: #25afc1;
+}
+
+.bsd{
+  border-left:2px solid rgb(60, 60, 60);
+}
+
+
+
+.billing-chart{
+  padding:20px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  animation: gradient-animation 7s ease infinite;
+  
+
+  color: #04cf7b;
+  background-color: gray;
+}
+
+.thank-you{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.reservation-chart{
+  padding: 20px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  animation: gradient-animation 7s ease infinite;
+
+  color: #04cf7b;
+  
+}
+
+
+.return-chart{
+  padding: 20px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  animation: gradient-animation 7s ease infinite;
+
+  color:  #FFDB01;
+}
+
+.overView{ 
+  text-align: center;
+  padding: 50px 100px;
+
+}
+
+
+
+.welcome{
+  margin-top:70px;
+  text-align: center;
+  color: black;
+  padding: 50px 50px;
+  background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(252,251,222,0.46) 92% );
+} 
+
+
+
+
+
+.small-cube{
+  background-color: #0093E9;
+  border-radius: 10px;
+  background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(252,251,222,0.46) 92% );
+}
+
+
+
+
+
+#footer{
+  margin-top: 50px;
+}
+
+body{
+  background-image: url("imgs/starocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+@media (max-width: 768px) {
+  body {
+      height:100vh;
+  }
+}
+
+.record-box{
+  margin-top: 100px;
+  color: #89de54;
+}
+
+

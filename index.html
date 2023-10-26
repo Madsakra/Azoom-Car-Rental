@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZoom Car Rental</title>
+
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <!--CSS STYLESHEET-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+  <!--Navigation bar-->
+  <section id="navigation-bar">
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand main-color" href="index.html"><img src="svgs/electric-car.svg" alt="moveit brand icon" height="40"> AZoom Car Rental</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link main-color" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link main-color" href="#features">About us</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main-color" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="login.html">Reserve Car</a></li>
+              <li><a class="dropdown-item" href="login.html">Return Car</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="login.html">Pay Final Bill</a></li>
+            </ul>
+
+          </li>
+          
+        </ul>
+      
+
+          <a class="nav-link basic border border-success rounded px-4 py-2" aria-current="page" href="login.html">Login</a>
+        
+      </div>
+    </div>
+  </nav>
+</section>
+
+  <!---->
+  <!--Center Page-->
+  <section id="center-page">
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Go <span style="color: #25c185;">Green</span> With <span style="color: #25c185;">Us</span></h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Do your part and save the world with us, We promise not to break your wallet!
+      </p>
+
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a class="nav-link basic border border-success rounded px-4 py-2 me-sm-3" aria-current="page" href="login.html">Reserve Now</a>
+        <a class="nav-link basic border border-success rounded px-4 py-2 me-sm-3" aria-current="page" href="login.html">Apply for membership</a>
+        
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="imgs/electric-car.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="600" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+ <!---->
+
+  <!--FEATURES-->
+  <section id="features">
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pt-2 pb-2 border-bottom">Why Rent <span style="color: #25c185;">Our Cars?</span></h2>
+    <div class="row g-4 pt-5 row-cols-1 row-cols-lg-4">
+
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+          <img src="svgs/hand.svg" alt="briefcase" height="55">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Eco-Friendly</h3>
+        <p>
+          Running on batteries, zero greenhouse emissions.
+        </p>
+        
+      </div>
+      
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+          <img src="svgs/country.svg" alt="busfront" height="50">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Countrywide</h3>
+        <p >
+          Uptown, downtown, you can find us everywhere, Islandwide.
+        </p>
+
+      </div>
+
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+          <img src="svgs/wallet.svg" alt="chatsq" height="55">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Affordable</h3>
+        <p>
+          Cheaper membership compared to the rest of the industry.
+        </p>
+      </div>
+
+      
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+          <img src="svgs/safety.svg" alt="chatsq" height="55">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Guranteed Safety</h3>
+        <p>
+          We have built-in safety features that shut down electrical systems when the vehicle detect a crash.
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+  </section>
+  <!---->
+
+  <!--PRICING-->
+  <section id="pricing">
+    <div class="container">
+    <div class="pricing-header mt-5 p-3 pb-md-4 mx-auto text-center">
+      <h2 class="display-4 fw-normal border-top pt-4">Decide Your Path</h2>
+      <p class="fs-5">Flat Rates That Will Not Flatten Your Wallet</p>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-2 mb-3 text-center border-bottom">
+
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm basic">
+          <div class="card-header py-3 basic">
+            <h4 class="my-0">Basic</h4>
+          </div>
+          <div class="card-body basic">
+            <h1>$8<small>/month</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>No commitment</li>
+              <li>$0.42/min rental</li>
+            </ul>
+            <a class="nav-link basic border border-success rounded px-4 py-2" aria-current="page" href="login.html">Join Now</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm premium">
+          <div class="card-header py-3 premium">
+            <h4 class="my-0">Premium</h4>
+          </div>
+          <div class="card-body premium">
+            <h1>$18<small>/month</small></h1>
+            <ul class="list-unstyled mt-2 mb-2">
+              <li>6 months commitment</li>
+              <li>FREE 40mins rental monthly</li>
+              <li>$0.22/min rental</li>
+            </ul>
+            <a class="nav-link premium border border-success rounded px-4 py-2" aria-current="page" href="login.html">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <!---->
+
+
+
+
+
+
+
+
+
+  <!-------------------------------CAROUSEL--------------------------------------->
+  <section id="carousel">
+  <div class="container pt-4">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/car-on-water.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/car-in-woods.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/car-green.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</section>
+ <!---->
+  
+
+
+
+  <!--FOOTER-->
+  <section id="footer">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        
+        <span class="mb-3 mb-md-0" style="color: #25c185;">© AZoom Car Rental</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://twitter.com/?lang=en">
+          <img src="svgs/twitter.svg" alt="twitter" height="40">
+          </a>
+        </li>
+        
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+            <img src="svgs/insta.svg" alt="insta.svg" height="40">
+          </a>
+        </li>
+        
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://www.instagram.com/">
+          <img src="svgs/facebook.svg" alt="" height="40">    
+          </a>
+        </li>
+      </ul>
+    </footer>
+</section>
+  <!---->
+
+
+
+
+
+  <!--BOOTSTRAP JAVASCRIPT-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  <!--PERSONAL JAVASCRIPT-->
+  <script src="index.js"></script>
+
+</body>
+
+</html>
