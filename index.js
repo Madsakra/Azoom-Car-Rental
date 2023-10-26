@@ -674,7 +674,7 @@ function loadSelectedRecord()
   $("#bill-to").val(target.user);
   $("#startTime").val(target.startDateTime);
   $("#endTime").val(target.returnDateTime);
-  $("#membership-amount").val(userObject.membershipfee);
+  $("#membership-amount").val("$"+userObject.membershipfee);
 
   // UPDATE USEROBJECT
   // WILL UPDATE AGAIN IF ANY DAMAGES AFTER INSPECTION
