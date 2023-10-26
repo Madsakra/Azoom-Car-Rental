@@ -225,7 +225,7 @@ function loadDashboard()
   {
   // LOAD VEHICLE DETAILS IF HAVE
   $(".show-vehicle-booked").text(userObject.vehicleReserved);
-  let savedDateTime = userObject.dateOfReservation;
+  let savedDateTime = localStorage.getItem("savedTime");
   $(".start-clock").text(savedDateTime);
   
   let splitDateTime = savedDateTime.split("----");
@@ -463,7 +463,7 @@ $(".reserve-now").click(function(){
 
   // UPDATE USER OBJECT
   userObject.vehicleReserved = selectedCar;
-  userObject.dateOfReservation = currentDate;
+  localStorage.setItem("savedTime",currentDate);
   localStorage.setItem("user",JSON.stringify(userObject));
 
   //ALERT SUCCESS THEN GO BACK DASHBOARD
