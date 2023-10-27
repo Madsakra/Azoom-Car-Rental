@@ -472,12 +472,13 @@ $(".reserve-now").click(function(){
 //WHEN RETURN CAR, TO UPDATE INFORMATION
 function updateUserAndCar()
 {
+    let savedDateTime = localStorage.getItem("savedTime");
     // UPDATE ADMIN RECORD
     let record =  {
       "recordNum": "r"+counter,
       "user":userAccount.userName,
       "vehicleReserved": userObject.vehicleReserved,
-      "startDateTime":userObject.dateOfReservation,
+       "startDateTime":savedDateTime,
       "returnDateTime":  $("#datetime-display").val(),
       "vehicleDamage":$("#damage-check").val()
     }
