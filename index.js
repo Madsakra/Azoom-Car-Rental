@@ -230,13 +230,10 @@ function loadDashboard()
   
   let splitDateTime = savedDateTime.split("----");
   let time = splitDateTime[1].split(":");
-  let hour = JSON.parse(time[0]);
-  let minute = JSON.parse(time[1]);
-  
+  let hour = parseInt(time[0]);
+  let minute = parseInt(time[1]);
 
-
-
-  
+  // LOAD DATE, ERROR PRONE
   let date = new Date();
   // TIME CALCULATED BASED ON HOUR+MINUTE, IGNORE SECONDS
   let hourDiff;
