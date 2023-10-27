@@ -623,7 +623,8 @@ function timeDifference(start,end)
 {
   // DIFFERENCE CALCULATED BASED ON MINUTES
   let startFull = (parseInt(start[0])*60)+parseInt(start[1]);
-
+  alert(start[2])
+  alert(start[3])
   let endFull = (parseInt(end[0])*60)+parseInt(end[1]);
 
   return (endFull-startFull);
